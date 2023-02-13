@@ -1,20 +1,27 @@
 .nav {
     grid-area: nav;
     background-color: #64DEDC;
-    padding-top: 60px;
+    padding: 20px;
 }
 
 .item {
-    color: black;
-    font-weight: 500;
-    font-size: 1.4em;
+    font-weight: 470;
     padding: 6px;
     display: flex;
-    margin: 10px;
-    letter-spacing: 0.05rem;
+    margin: 15px;
 }
 
 .item img {
     width: 20px;
     padding-right: 10px;
+}
+
+.link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.activeLink {
+    color: black;
+    text-decoration: none;
 }
